@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-node": "^1.2.0"
+    "http-node": "^1.2.0",
+    "pug": "^2.0.4"
   }
 }
