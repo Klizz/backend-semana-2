@@ -4,7 +4,7 @@ import getImages from './getImages';
 
 const APP = express();
 
-APP.set('views', './views');
+APP.set('views', path.join(__dirname, 'views'));
 
 APP.set('view engine', 'pug');
 
