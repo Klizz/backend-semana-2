@@ -20,6 +20,3 @@ APP.get("/images", (req, res) => {
     const images = getImages();
     res.render('images', { images });
 });
-
-
-SERVER.listen(5000);
