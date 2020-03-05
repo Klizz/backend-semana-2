@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:17": "nodemon --exec babel-node 17-sub-app.js"
+    "dev:17": "nodemon --exec babel-node 17-sub-app.js",
+    "dev:18": "nodemon --exec babel-node 18-admin.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +17,9 @@
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "express-router": "0.0.1",
+    "pug": "^2.0.4",
+    "uuid": "^7.0.2"
   },
   "devDependencies": {
     "@babel/node": "^7.8.4",

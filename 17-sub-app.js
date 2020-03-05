@@ -1,6 +1,5 @@
 import http from 'http';
 import express from 'express';
-import products from './online_store/products';
 import productsRoutes from './online_store/productsRoutes';
 
 const APP = express();
